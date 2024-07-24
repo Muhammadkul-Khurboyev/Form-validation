@@ -1,0 +1,89 @@
+.site-body {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("./images/painting-mountain-lake-with-mountain-background_188544-9126.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-name {
+  font-size: 36px;
+}
+.hero-section {
+  width: 420px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(255, 255, 255, .2);
+  color: white;
+}
+
+.site-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.input-user-name {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+  outline: none;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+}
+.input-user-name::placeholder {
+  color: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn {
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+}
+.js-info {
+  display: none;
+}
+.valadation {
+  display: block;
+  color: red;
+  font-size: 14px;
+}
+.succes {
+  display: none;
+}
+.validation-succes {
+  display: block;
+  color: green;
+  font-size: 14px;
+}
+.last-valadation {
+  display: block;
+  color: red;
+  font-size: 14px;
+}
+.age-info {
+  display: none;
+}
+.age-succes {
+  display: block;
+  color: green;
+  font-size: 14px;
+}
+.age-invalid {
+  display: block;
+  color: red;
+  font-size: 14px;
+}
